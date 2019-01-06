@@ -1,0 +1,114 @@
+@media screen and (max-width: 1025px) {
+  body {
+    width: 95%;
+    margin: 3% auto;
+    background: whitesmoke; }
+  #mobilenav {
+    display: none; }
+  #section1 {
+    position: relative;
+    margin: 0 auto;
+    height: 870px;
+    width: 100%; }
+    #section1 .navgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      padding: 50px 0 0 0; }
+      #section1 .navgrid a {
+        color: whitesmoke;
+        text-decoration: none; }
+      #section1 .navgrid .brand {
+        font-size: 28px;
+        letter-spacing: 3px;
+        text-shadow: 2px 1px 2px black; }
+      #section1 .navgrid .gallery {
+        font-size: 20px;
+        color: whitesmoke;
+        letter-spacing: 3px; }
+        #section1 .navgrid .gallery a {
+          border-bottom: 1px solid whitesmoke; }
+      #section1 .navgrid .contactUs {
+        border: 2px solid whitesmoke;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        letter-spacing: 2px; }
+    #section1 .bellemaison {
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-shadow: 2px 1px 2px black; }
+      #section1 .bellemaison h1 {
+        color: whitesmoke;
+        font-size: 80px; }
+        #section1 .bellemaison h1 span {
+          font-style: italic; }
+      #section1 .bellemaison h2 {
+        color: whitesmoke;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-weight: 100;
+        letter-spacing: 3px; }
+  #section2 {
+    display: none; }
+  #section3 {
+    margin: 96px auto 0 auto;
+    height: 225px;
+    width: 100%; }
+    #section3 .descriptiongrid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr; }
+      #section3 .descriptiongrid .elegant {
+        font-family: Arial, Helvetica, sans-serif !important;
+        color: grey;
+        font-size: 20px;
+        letter-spacing: 2px; }
+      #section3 .descriptiongrid .description {
+        color: #8d8d8d;
+        font-size: 20px; }
+        #section3 .descriptiongrid .description p {
+          margin: 0 0 50px 0; }
+        #section3 .descriptiongrid .description a {
+          text-decoration: none;
+          font-family: Arial, Helvetica, sans-serif !important;
+          letter-spacing: 3px;
+          font-size: 12px;
+          color: #98bd9b;
+          height: 70px;
+          width: 200px;
+          padding: 20px 20px;
+          border: 2px solid #98bd9b;
+          transition: all .1s ease-in; }
+          #section3 .descriptiongrid .description a:hover {
+            color: whitesmoke;
+            border: 2px solid #6a856c;
+            background: #6a856c; }
+  #section4 {
+    width: 100%; }
+  #section5 {
+    margin: 162px auto 0 auto;
+    height: auto;
+    width: 600px; }
+    #section5 .infogrid {
+      display: block;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 32px; }
+      #section5 .infogrid .location h1 {
+        color: #727272;
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 50px 0; }
+      #section5 .infogrid .location .googlemap {
+        width: 600px; }
+        #section5 .infogrid .location .googlemap .sixgrid {
+          margin: 45px auto 0 auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-row-gap: 10px;
+          grid-column-gap: 10px;
+          width: 600px; }
+  #section6 {
+    width: 100%; } }
