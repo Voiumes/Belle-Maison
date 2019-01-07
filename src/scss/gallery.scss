@@ -1,0 +1,180 @@
+*{
+    font-family: 'Old Standard TT', serif !important;
+    color:whitesmoke;
+}
+body{
+    width: 94.5%;
+    margin: 50px auto;
+    
+}
+#gallerynav{
+    .gallerynavgrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        padding: 50px 0 0 0;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .brand{
+            font-size: 28px;
+            letter-spacing: 3px;        
+        }
+        .gallery{
+            font-size: 20px;
+           
+            color: whitesmoke;
+            letter-spacing: 3px;
+            a{
+                border-bottom: 1px solid rgb(197, 197, 197);
+                
+            }
+        }
+        .contactUs{
+            border: 2px solid rgb(197, 197, 197);
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif !important;
+            letter-spacing: 2px;
+        }
+    }
+}
+#gallery{
+    margin:100px 0 0 0;
+    .gallerygrid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 2%;
+        .picture1{
+            background:url(../img/triple1.jpg)no-repeat center center;
+            background-size: cover;
+            height:1100px;
+            width:auto;
+        }
+        div{
+            .picture2{
+                background:url(../img/triple2.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+            .picture3{
+                margin: 50px 0 0 0;
+                background:url(../img/triple3.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+        }
+
+    }
+}
+#gallery2{
+    margin:50px 0 0 0;
+    .gallerygrid2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 2%;
+        div{
+            .picture4{
+                background:url(../img/triple2.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+            .picture5{
+                margin: 50px 0 0 0;
+                background:url(../img/triple3.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+        }
+        .picture6{
+            background:url(../img/triple1.jpg)no-repeat center center;
+            background-size: cover;
+            height:1100px;
+            width:auto;
+        }
+    }
+}
+#gallery3{
+    margin:100px 0 0 0;
+    .gallerygrid3{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 2%;
+        .picture7{
+            background:url(../img/triple1.jpg)no-repeat center center;
+            background-size: cover;
+            height:1100px;
+            width:auto;
+        }
+        div{
+            .picture8{
+                background:url(../img/triple2.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+            .picture9{
+                margin: 50px 0 0 0;
+                background:url(../img/triple3.jpg)no-repeat center center;
+                background-size: cover;
+                height: 525px;
+                width: auto;
+            }
+        }
+
+    }
+}
+
+#section6{
+    margin: 186px auto 0 auto; 
+    background: rgb(242, 242, 242);
+    height: 433px;
+    text-align: center;
+    .name{
+        padding: 50px 0 0 0;
+        h1{
+            font-style: italic;
+            color:rgb(109, 109, 109);
+            font-family: 'Old Standard TT', serif !important;
+            font-size: 28px;
+        } 
+    }
+   
+    div{
+        .subscribe{
+            color:rgb(156, 156, 156);
+            padding: 70px 0 10px 0;
+        }
+        input{
+            height: 41px;
+        }
+        .photos{
+            padding: 30px 0 50px 0;
+            color: rgb(156, 156, 156);
+        }
+        button{
+            color: rgb(152, 189, 155);
+            border: 2px solid rgb(152, 189, 155);
+            background: whitesmoke;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif !important;
+            letter-spacing: 3px;
+            font-size: 12px;
+            padding: 10px;
+            transition: all .1s ease-in;
+            &:hover{
+                color: whitesmoke; 
+                border: 2px solid rgb(106, 133, 108) ;
+                background: rgb(106, 133, 108);
+            }
+        }
+    }
+    .footer{
+        color:rgb(124, 124, 124);
+    }
+}
+

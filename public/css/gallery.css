@@ -1,0 +1,136 @@
+* {
+  font-family: 'Old Standard TT', serif !important;
+  color: whitesmoke; }
+
+body {
+  width: 94.5%;
+  margin: 50px auto; }
+
+#gallerynav .gallerynavgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 50px 0 0 0; }
+  #gallerynav .gallerynavgrid a {
+    color: black;
+    text-decoration: none; }
+  #gallerynav .gallerynavgrid .brand {
+    font-size: 28px;
+    letter-spacing: 3px; }
+  #gallerynav .gallerynavgrid .gallery {
+    font-size: 20px;
+    color: whitesmoke;
+    letter-spacing: 3px; }
+    #gallerynav .gallerynavgrid .gallery a {
+      border-bottom: 1px solid #c5c5c5; }
+  #gallerynav .gallerynavgrid .contactUs {
+    border: 2px solid #c5c5c5;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 2px; }
+
+#gallery {
+  margin: 100px 0 0 0; }
+  #gallery .gallerygrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2%; }
+    #gallery .gallerygrid .picture1 {
+      background: url(../img/triple1.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1100px;
+      width: auto; }
+    #gallery .gallerygrid div .picture2 {
+      background: url(../img/triple2.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+    #gallery .gallerygrid div .picture3 {
+      margin: 50px 0 0 0;
+      background: url(../img/triple3.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+
+#gallery2 {
+  margin: 50px 0 0 0; }
+  #gallery2 .gallerygrid2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 2%; }
+    #gallery2 .gallerygrid2 div .picture4 {
+      background: url(../img/triple2.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+    #gallery2 .gallerygrid2 div .picture5 {
+      margin: 50px 0 0 0;
+      background: url(../img/triple3.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+    #gallery2 .gallerygrid2 .picture6 {
+      background: url(../img/triple1.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1100px;
+      width: auto; }
+
+#gallery3 {
+  margin: 100px 0 0 0; }
+  #gallery3 .gallerygrid3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2%; }
+    #gallery3 .gallerygrid3 .picture7 {
+      background: url(../img/triple1.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1100px;
+      width: auto; }
+    #gallery3 .gallerygrid3 div .picture8 {
+      background: url(../img/triple2.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+    #gallery3 .gallerygrid3 div .picture9 {
+      margin: 50px 0 0 0;
+      background: url(../img/triple3.jpg) no-repeat center center;
+      background-size: cover;
+      height: 525px;
+      width: auto; }
+
+#section6 {
+  margin: 186px auto 0 auto;
+  background: #f2f2f2;
+  height: 433px;
+  text-align: center; }
+  #section6 .name {
+    padding: 50px 0 0 0; }
+    #section6 .name h1 {
+      font-style: italic;
+      color: #6d6d6d;
+      font-family: 'Old Standard TT', serif !important;
+      font-size: 28px; }
+  #section6 div .subscribe {
+    color: #9c9c9c;
+    padding: 70px 0 10px 0; }
+  #section6 div input {
+    height: 41px; }
+  #section6 div .photos {
+    padding: 30px 0 50px 0;
+    color: #9c9c9c; }
+  #section6 div button {
+    color: #98bd9b;
+    border: 2px solid #98bd9b;
+    background: whitesmoke;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding: 10px;
+    transition: all .1s ease-in; }
+    #section6 div button:hover {
+      color: whitesmoke;
+      border: 2px solid #6a856c;
+      background: #6a856c; }
+  #section6 .footer {
+    color: #7c7c7c; }
