@@ -1,0 +1,34 @@
+.icon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10%;
+  width: 100%;
+  height: auto; }
+  .icon-grid .box {
+    position: relative;
+    border: 2px solid whitesmoke;
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg); }
+    .icon-grid .box i {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: rotate(-45deg) translate(-50%, -50%); }
+  .icon-grid .box1 i {
+    color: red; }
+  .icon-grid .box2 i {
+    color: blue; }
+  .icon-grid .box3 i {
+    color: cyan; }
+  .icon-grid .box4 i {
+    color: green; }
+  .icon-grid .box5 i {
+    color: plum; }
+  .icon-grid .box6 i {
+    color: lightcoral; }
+
+@media screen and (max-width: 479px) {
+  .icon-grid .box {
+    height: 130px;
+    width: 130px; } }

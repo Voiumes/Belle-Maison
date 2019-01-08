@@ -193,5 +193,173 @@
         margin: 50px 0 0 0;
     }
     
+                                        /* =================== G A L L E R Y ======================*/
+                                    /*1025px ======================================================== 1025px*/
+                                    /*1025px ======================================================== 1025px*/
+                                        /* =================== G A L L E R Y ======================*/
+
+#gallerynav{
+    .gallerynavgrid{
+        display:block;
+        text-align: center;
+        padding: 50px 0 0 0;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .brand{
+            font-size: 28px;
+            letter-spacing: 3px;        
+        }
+        .gallery{
+            font-size: 20px;
+            margin: 0 0 50px 0;
+            color: whitesmoke;
+            letter-spacing: 3px;
+            a{
+                border-bottom: 1px solid rgb(197, 197, 197);
+            }
+        }
+        .contactUs{
+            border: 2px solid rgb(197, 197, 197);
+            
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif !important;
+            letter-spacing: 2px;
+        }
+    }
+}
+#gallery{
+
+    margin:100px 0 0 0;
+    .gallerygrid{
+        display: block;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 2%;
+        .picture1{
+            background:url(../img/gallery1.jpg)no-repeat center center;
+            background-size: cover;
+            height:500px;
+            width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
+        }
+        div{
+            .picture2{
+                margin: 50px 0 0 0;
+                background:url(../img/six6.jpg)no-repeat center center;
+                background-size: cover;
+                height: 500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+            .picture3{
+                margin: 50px 0 0 0;
+                background:url(../img/gallery3.jpg)no-repeat center center;
+                background-size: cover;
+                height:500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+        }
+
+    }
+}
+#gallery2{
+    margin:50px 0 0 0;
+    .gallerygrid2{
+        display: block;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 2%;
+        div{
+            .picture4{
+                margin: 50px 0 0 0;
+                background:url(../img/gallery4.jpg)no-repeat center center;
+                background-size: cover;
+                height: 500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+            .picture5{
+                margin: 50px 0 0 0;
+                background:url(../img/gallery5.jpg)no-repeat center center;
+                background-size: cover;
+                height: 500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+        }
+        .picture6{
+            margin: 50px 0 0 0;
+            background:url(../img/gallery6.jpg)no-repeat center center;
+            background-size: cover;
+            height:500px;
+            width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
+        }
+    }
+}
+#gallery3{
+    margin: 50px 0 0 0;
+    .gallerygrid3{
+        display: block;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 2%;
+        .picture7{
+            margin: 50px 0 0 0;
+            background:url(../img/gallery7.jpg)no-repeat center center;
+            background-size: cover;
+            height:500px;
+            width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
+        }
+        div{
+            .picture8{
+                margin: 50px 0 0 0;
+                background:url(../img/gallery8.jpg)no-repeat center center;
+                background-size: cover;
+                height: 500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+            .picture9{
+                margin: 50px 0 0 0;
+                background:url(../img/gallery9.jpg)no-repeat center center;
+                background-size: cover;
+                height: 500px;
+                width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
+            }
+        }
+
+    }
+}   
+    
 
 }

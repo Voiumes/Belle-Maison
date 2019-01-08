@@ -36,21 +36,30 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 2%; }
     #gallery .gallerygrid .picture1 {
-      background: url(../img/triple1.jpg) no-repeat center center;
+      background: url(../img/gallery1.jpg) no-repeat center center;
       background-size: cover;
       height: 1100px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery .gallerygrid .picture1:hover {
+        opacity: .9; }
     #gallery .gallerygrid div .picture2 {
-      background: url(../img/triple2.jpg) no-repeat center center;
+      background: url(../img/six6.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery .gallerygrid div .picture2:hover {
+        opacity: .9; }
     #gallery .gallerygrid div .picture3 {
       margin: 50px 0 0 0;
-      background: url(../img/triple3.jpg) no-repeat center center;
+      background: url(../img/gallery3.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery .gallerygrid div .picture3:hover {
+        opacity: .9; }
 
 #gallery2 {
   margin: 50px 0 0 0; }
@@ -59,44 +68,62 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 2%; }
     #gallery2 .gallerygrid2 div .picture4 {
-      background: url(../img/triple2.jpg) no-repeat center center;
+      background: url(../img/gallery6.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery2 .gallerygrid2 div .picture4:hover {
+        opacity: .9; }
     #gallery2 .gallerygrid2 div .picture5 {
       margin: 50px 0 0 0;
-      background: url(../img/triple3.jpg) no-repeat center center;
+      background: url(../img/gallery5.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery2 .gallerygrid2 div .picture5:hover {
+        opacity: .9; }
     #gallery2 .gallerygrid2 .picture6 {
-      background: url(../img/triple1.jpg) no-repeat center center;
+      background: url(../img/gallery4.jpg) no-repeat center center;
       background-size: cover;
       height: 1100px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery2 .gallerygrid2 .picture6:hover {
+        opacity: .9; }
 
 #gallery3 {
-  margin: 100px 0 0 0; }
+  margin: 50px 0 0 0; }
   #gallery3 .gallerygrid3 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 2%; }
     #gallery3 .gallerygrid3 .picture7 {
-      background: url(../img/triple1.jpg) no-repeat center center;
+      background: url(../img/gallery7.jpg) no-repeat center center;
       background-size: cover;
       height: 1100px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery3 .gallerygrid3 .picture7:hover {
+        opacity: .9; }
     #gallery3 .gallerygrid3 div .picture8 {
-      background: url(../img/triple2.jpg) no-repeat center center;
+      background: url(../img/gallery8.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery3 .gallerygrid3 div .picture8:hover {
+        opacity: .9; }
     #gallery3 .gallerygrid3 div .picture9 {
       margin: 50px 0 0 0;
-      background: url(../img/triple3.jpg) no-repeat center center;
+      background: url(../img/gallery9.jpg) no-repeat center center;
       background-size: cover;
       height: 525px;
-      width: auto; }
+      width: auto;
+      transition: all .3s ease-in-out; }
+      #gallery3 .gallerygrid3 div .picture9:hover {
+        opacity: .9; }
 
 #section6 {
   margin: 186px auto 0 auto;
@@ -127,10 +154,10 @@ body {
     letter-spacing: 3px;
     font-size: 12px;
     padding: 10px;
-    transition: all .1s ease-in; }
+    transition: all .3s ease-in; }
     #section6 div button:hover {
       color: whitesmoke;
       border: 2px solid #6a856c;
       background: #6a856c; }
   #section6 .footer {
-    color: #7c7c7c; }
+    color: #bbbbbb; }

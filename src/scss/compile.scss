@@ -1,0 +1,59 @@
+
+.icon-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10%;
+    width: 100%;
+    height: auto;
+    .box{
+        position: relative;
+        border: 2px solid whitesmoke;
+        height: 150px;
+        width: 150px;
+        transform: rotate(45deg);
+        i{
+            top:50%;
+            left:50%;
+            position: absolute;
+            transform: rotate(-45deg) translate(-50%, -50%);
+        }
+    }
+    .box1{
+        i{
+            color:red;
+        }
+    }
+    .box2{
+        i{
+            color:blue;
+        }
+    }
+    .box3{
+        i{
+            color:cyan;
+        }
+    }
+    .box4{
+        i{
+            color:green;
+        }
+    }
+    .box5{
+        i{
+            color:plum;
+        }
+    }
+    .box6{
+        i{
+            color:lightcoral;
+        }
+    }
+}
+@media screen and (max-width: 479px) {
+    .icon-grid{
+        .box{
+            height: 130px;
+            width: 130px;
+        }
+    }
+}

@@ -2,6 +2,9 @@
     font-family: 'Old Standard TT', serif !important;
     color:whitesmoke;
 }
+
+
+
 body{
     width: 94.5%;
     margin: 50px auto;
@@ -46,24 +49,36 @@ body{
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 2%;
         .picture1{
-            background:url(../img/triple1.jpg)no-repeat center center;
+            background:url(../img/gallery1.jpg)no-repeat center center;
             background-size: cover;
             height:1100px;
             width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
         }
         div{
             .picture2{
-                background:url(../img/triple2.jpg)no-repeat center center;
+                background:url(../img/six6.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
             .picture3{
                 margin: 50px 0 0 0;
-                background:url(../img/triple3.jpg)no-repeat center center;
+                background:url(../img/gallery3.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
         }
 
@@ -77,52 +92,76 @@ body{
         grid-column-gap: 2%;
         div{
             .picture4{
-                background:url(../img/triple2.jpg)no-repeat center center;
+                background:url(../img/gallery6.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
             .picture5{
                 margin: 50px 0 0 0;
-                background:url(../img/triple3.jpg)no-repeat center center;
+                background:url(../img/gallery5.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
         }
         .picture6{
-            background:url(../img/triple1.jpg)no-repeat center center;
+            background:url(../img/gallery4.jpg)no-repeat center center;
             background-size: cover;
             height:1100px;
             width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
         }
     }
 }
 #gallery3{
-    margin:100px 0 0 0;
+    margin:50px 0 0 0;
     .gallerygrid3{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 2%;
         .picture7{
-            background:url(../img/triple1.jpg)no-repeat center center;
+            background:url(../img/gallery7.jpg)no-repeat center center;
             background-size: cover;
             height:1100px;
             width:auto;
+            transition: all .3s ease-in-out;
+            &:hover{
+                opacity: .9;
+            }
         }
         div{
             .picture8{
-                background:url(../img/triple2.jpg)no-repeat center center;
+                background:url(../img/gallery8.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
             .picture9{
                 margin: 50px 0 0 0;
-                background:url(../img/triple3.jpg)no-repeat center center;
+                background:url(../img/gallery9.jpg)no-repeat center center;
                 background-size: cover;
                 height: 525px;
                 width: auto;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    opacity: .9;
+                }
             }
         }
 
@@ -165,7 +204,7 @@ body{
             letter-spacing: 3px;
             font-size: 12px;
             padding: 10px;
-            transition: all .1s ease-in;
+            transition: all .3s ease-in;
             &:hover{
                 color: whitesmoke; 
                 border: 2px solid rgb(106, 133, 108) ;
@@ -174,7 +213,8 @@ body{
         }
     }
     .footer{
-        color:rgb(124, 124, 124);
+        color:rgb(187, 187, 187);
     }
 }
+
 
