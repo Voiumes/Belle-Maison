@@ -269,4 +269,70 @@
         width: auto;
         transition: all .3s ease-in-out; }
         #gallery3 .gallerygrid3 div .picture9:hover {
+          opacity: .9; }
+  #gallery4 {
+    margin: 50px 0 0 0; }
+    #gallery4 .gallerygrid4 {
+      display: block;
+      grid-template-columns: 1fr 2fr;
+      grid-column-gap: 2%; }
+      #gallery4 .gallerygrid4 div .picture10 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery10.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery4 .gallerygrid4 div .picture10:hover {
+          opacity: .9; }
+      #gallery4 .gallerygrid4 div .picture11 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery11.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery4 .gallerygrid4 div .picture11:hover {
+          opacity: .9; }
+      #gallery4 .gallerygrid4 .picture12 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery12.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery4 .gallerygrid4 .picture12:hover {
+          opacity: .9; }
+  #gallery5 {
+    margin: 50px 0 0 0; }
+    #gallery5 .gallerygrid5 {
+      display: block;
+      grid-template-columns: 2fr 1fr;
+      grid-column-gap: 2%; }
+      #gallery5 .gallerygrid5 .picture13 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery13.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery5 .gallerygrid5 .picture13:hover {
+          opacity: .9; }
+      #gallery5 .gallerygrid5 div .picture14 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery14.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery5 .gallerygrid5 div .picture14:hover {
+          opacity: .9; }
+      #gallery5 .gallerygrid5 div .picture15 {
+        margin: 50px 0 0 0;
+        background: url(../img/gallery15.jpg) no-repeat center center;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+        transition: all .3s ease-in-out; }
+        #gallery5 .gallerygrid5 div .picture15:hover {
           opacity: .9; } }
