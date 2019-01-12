@@ -1,11 +1,20 @@
 *{
     font-family: 'Old Standard TT', serif !important;
+    scroll-behavior: smooth;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 body{
     width: 94.5%;
     margin:0 auto;
-    background: rgb(245, 245, 245);
+    background: rgb(252, 252, 252);
 }
 #mobilenav{
     display: none;
@@ -14,6 +23,7 @@ body{
     position: relative;
     margin: 50px auto 0 auto;
     height: 870px;
+    background: linear-gradient(rgba(0, 0, 0, 0.226) ,rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0),  rgba(255, 255, 255, 0.014), rgba(255, 255, 255, 0.24));
     
     .navgrid{
         display:grid;
@@ -23,18 +33,26 @@ body{
         a{
             color: whitesmoke;
             text-decoration: none;
+            text-shadow: 2px 1px 2px rgb(0, 0, 0);
         }
         .brand{
             font-size: 28px;
             letter-spacing: 3px;
             text-shadow: 2px 1px 2px rgb(0, 0, 0);
+            animation-name: fadeIn;
+            animation-duration: 1s;
+            
             
         }
         .gallery{
             font-size: 20px;
-           
             color: whitesmoke;
             letter-spacing: 3px;
+            animation-name: fadeIn;
+            animation-duration: 1s;
+            animation-delay: .75s;
+            animation-fill-mode: forwards;
+            opacity: 0;
             a{
                 border-bottom: 1px solid whitesmoke;
                 
@@ -45,6 +63,11 @@ body{
             padding: 20px;
             font-family: Arial, Helvetica, sans-serif !important;
             letter-spacing: 2px;
+            animation-name: fadeIn;
+            animation-duration: 1.5s;
+            animation-delay: 1.2s;
+            animation-fill-mode: forwards;
+            opacity: 0;
         }
     }
     .bellemaison{         
@@ -54,6 +77,11 @@ body{
         top:50%;
         transform: translate(-50%, -50%);
         text-shadow: 2px 1px 2px rgb(0, 0, 0);
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+        animation-delay: 1.75s;
+        animation-fill-mode: forwards;
+        opacity: 0;
         h1{
             color: whitesmoke;
             font-size:80px;
@@ -83,30 +111,31 @@ body{
         margin:0 auto;
         .tripleh1{
             position: absolute;
-            color: whitesmoke;
+            color: rgb(255, 255, 255);
             text-align: center;
             top:50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 28px;
+            font-size: 35px;
+            text-shadow: 2px 1px 2px rgb(0, 0, 0);
         }
         .triple1{
             position: relative;
-            background:url(../img/triple1.jpg)no-repeat center center;
+            background:url(../img/gallery9.jpg)no-repeat center center;
             height: 385px;
             width:385px;
           
         }
         .triple2{
             position: relative;
-            background:url(../img/triple2.jpg)no-repeat center center;
+            background:url(../img/picture1.jpg)no-repeat center center;
             height: 385px;
             width:385px;
             
         }
         .triple3{
             position: relative;
-            background:url(../img/triple3.jpg)no-repeat center center;
+            background:url(../img/six6.jpg)no-repeat center center;
             height: 385px;
             width:385px;
            
@@ -156,6 +185,7 @@ body{
     position: relative;
     margin: 175px 0 0 0; 
     height: 682px;
+    background: rgba(102, 102, 102, 0.034);
     div{
         width: 80%;
         margin:0 auto;
